@@ -25,6 +25,7 @@ def it_is_a_lot(next_spot, pos):
         print("Yeahhhy you can park at", pos)
         
         
+# Test Cases
 it_is_a_lot(next_available_spot([]), 1)
 it_is_a_lot(next_available_spot([2,1]), 3)
 it_is_a_lot(next_available_spot([2,1,3]), 2)
